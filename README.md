@@ -1,45 +1,36 @@
-# jekyll-uno
+Strange Case
+============
 
-Jekyll-Uno - a minimal, responsive theme for Jekyll based on the [Uno](https://github.com/daleanthony/Uno) theme for Ghost.
+Strange Case is a simple, clean and responsive theme for Jekyll. 
 
-> :warning:
-  This theme requires ruby and rubygems installed
 
-### Features
+### Demo 
 
-* Clean layout
-* Resposive layout
-* Pagination
-* Syntax highlighting
-* Social links
-* Tags listing page
-* Categories listing page
-* Google Analytics integration
-* Disqus integration
+[Demo](http://thephuse.github.io/strange_case/)
 
----
+### Overview 
 
-### Install and Test
+* Fixed Sidebar with cover image
+* Minimal design 
+* Easy to configure
+* Browser support: Latest releases of Chrome, Safari, Firefox, Mobile Safari and IE 9+.
 
-1. Download or clone repo `git clone git@github.com:joshgerdes/jekyll-uno.git`
-2. Enter the folder: `cd jekyll-uno/`
-3. If you don't have bundler installed: `gem install bundler`
-3. Install Ruby gems: `bundle install`
-4. Start Jekyll server: `jekyll serve`
+### Screenshots
 
-Access via: [http://localhost:4000/jekyll-uno](http://localhost:4000/jekyll-uno)
+![screenshot](/images/screenshot1.png)
+![screenshot](/images/screenshot2.png)
 
----
+### Setup
 
-### Demo and Download
+1. Install [Jekyll](http://jekyllrb.com/)
+2. Fork or [download](https://github.com/thephuse/strange_case) this theme repo
+3. Edit the `_config.yml` file (if you make any additional changes to this file, you will need to stop and restart your command in the next step)
+4. From your command line, switch to your site directory and build using `jekyll serve`
+5. Site will be accessible by viewing http://localhost:4000/strange_case/
 
-[Demo](http://joshgerdes.com/jekyll-uno/)
-[Download](https://github.com/joshgerdes/jekyll-uno/archive/master.zip)
+### Download
 
-![jekyll-uno - free Jekyll theme](/screenshot.png)
+[Download](https://github.com/thephuse/strange_case)
 
----
-
-### Copyright and license
-
-It is under [the MIT license](/LICENSE).
+### License
+* [MIT](http://opensource.org/licenses/MIT)

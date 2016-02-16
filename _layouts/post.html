@@ -1,17 +1,47 @@
 ---
 layout: default
 ---
-<article class="post-container post-container--single">
-  <header class="post-header">
-    <div class="post-meta">
-      <time datetime="{{ page.date | date: "%-d %b %Y" }}" class="post-meta__date date">{{ page.date | date: "%-d %b %Y" }}</time> &#8226; <span class="post-meta__tags">on {% for tag in page.tags %}<a href="{{ site.baseurl }}tags/#{{ tag }}">{{ tag }}</a> {% endfor %}</span>
+<header style="background-image: url({{ site.baseurl }}{{ page.featured_image }});">
+  <div class="container post-container">
+    <a href="{{ site.baseurl }}/" class="home_button"></a>
+    <div class="inner-container">
+      <h1>{{ page.title }}</h1>
+      <ul class="meta">
+        <li>
+          <span>
+            Published
+          </span>
+          {{ page.date | date_to_string }}
+        </li>
+        <li>
+          <span>
+            Category
+          </span>
+          {{ page.categories }}
+        </li>
+      </ul>      
     </div>
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
+    <ul class="pagination">
+      {% if page.previous.url %}
+        <li class="previous">
+          <a href="{{ site.baseurl }}{{ page.previous.url }}">
+            Previous
+          </a>
+        </li>
+      {% endif %}
+      {% if page.next.url %}
+      <li class="next">
+        <a href="{{ site.baseurl }}{{ page.next.url }}">
+          Next
+        </a>
+      </li>
+      {% endif %}
+    </ul>
+  </div>
+</header>
 
-  <section class="post">
+<article>
+  <div class="container">
     {{ content }}
-  </section>
-  {% if page.comments != false and site.disqus_shortname %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
+  </div>
 </article>
-{% if page.comments != false %}{% include disqus.html %}{% endif %}

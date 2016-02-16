@@ -1,39 +1,9 @@
 # Site settings
-title: Marcus Blog
-description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
-url: 'http://awesomemarcus.github.io'
-baseurl: 
-# google_analytics: 'UA-XXXXXX-X'
-# disqus_shortname: 'your-disqus-name'
-
-author:
-  name: 'Josh Gerdes'
-  email: josh@joshgerdes.com
-  twitter_username: joshgerdes
-  facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
-
-defaults:
-  -
-    scope:
-      path: ''
-      type: 'posts'
-    values:
-        layout: 'post'
+title: 'Strange Case' # Your Title
+tagline: 'Twisted tales to make you shudder' # A brief tagline for your site
+sidebar_image: /images/cover.jpg
 
 # Build settings
-destination: _site
-paginate: 10
-permalink: /:year/:title/
-markdown: kramdown
-highlighter: rouge
-
-kramdown:
-  # use Github Flavored Markdown
-  input: GFM
-  # do not replace newlines by <br>s
-  hard_wrap: false
-
-gems: ['jekyll-paginate']
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
+markdown: redcarpet
+highlighter: pygments
+baseurl: /strange_case # the subpath of your site, e.g. /blog/
