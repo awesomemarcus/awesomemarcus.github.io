@@ -11,5 +11,8 @@ url: 'http://awesomemarcus.github.io'
 
 # Outputting
 permalink: title
+<<<<<<< HEAD
 paginate_path: /page:num
 timezone: null
+=======
+>>>>>>> f1d290181d1e04e0182225c17d243bf084638bac
