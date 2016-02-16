@@ -10,7 +10,7 @@ baseurl:
 url: 'http://awesomemarcus.github.io'
 
 # Outputting
-permalink: title
+permalink: /blog/:title
 <<<<<<< HEAD
 paginate_path: /page:num
 timezone: null
