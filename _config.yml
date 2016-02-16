@@ -8,3 +8,6 @@ markdown: redcarpet
 highlighter: pygments
 baseurl: 
 url: 'http://awesomemarcus.github.io'
+
+# Outputting
+permalink: title
