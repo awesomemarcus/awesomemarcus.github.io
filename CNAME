@@ -1,4 +1,1 @@
-type: CNAME
-host: www.iamarcus.xyz
-answer: awesomemarcus.github.io
-TTL: 300
+www.iamarcus.xyz
