@@ -1,4 +1,4 @@
 type: CNAME
-host: http://www.iamarcus.xyz
+host: www.iamarcus.xyz
 answer: awesomemarcus.github.io
 TTL: 300
