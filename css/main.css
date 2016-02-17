@@ -231,12 +231,15 @@ header ul.meta li span {
 
 header ul.meta li.social-ico{
   font-size: 16px;
-  text-align: center;
 }
 
 header ul.meta li.social-ico a{
   color: #fff;
   margin: 0px 5px;
+}
+
+header ul.meta li.social-ico a:first-child{
+  margin-left: 2px;
 }
 
 /* Pagination */
