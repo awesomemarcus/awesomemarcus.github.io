@@ -217,7 +217,7 @@ header ul.meta {
 }
 
 header ul.meta li {
-  display: inline-block;
+  display: block;
   margin-right: 25px;
   line-height: 30px;
   color: #fff;
@@ -227,6 +227,16 @@ header ul.meta li span {
   margin-right: 10px;
   font-style: italic;
   color: rgba(255, 255, 255, .5);
+}
+
+header ul.meta li.social-ico{
+  font-size: 16px;
+  text-align: center;
+}
+
+header ul.meta li.social-ico a{
+  color: #fff;
+  margin: 0px 5px;
 }
 
 /* Pagination */

@@ -9,6 +9,11 @@ highlighter: pygments
 baseurl: 
 url: 'http://awesomemarcus.github.io'
 
+author:
+  email: marcus.aquiatin@gmail.com
+  twitter: awesomemarkes
+  linkedin: mark-jason-aquiatin-1a193153
+
 # Outputting
 permalink: /blog/:title
 paginate_path: /blog/page:num/
