@@ -1,7 +1,7 @@
 # Site settings
 title: 'Marcus Files' # Your Title
 tagline: 'Web Developer. Blogger' # A brief tagline for your site
-sidebar_image: http://annotations.azurewebsites.net/wp-content/uploads/2014/01/holmes.jpg
+sidebar_image: /images/holmes.jpg
 
 # Build settings
 markdown: kramdown
