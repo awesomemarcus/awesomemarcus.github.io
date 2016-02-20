@@ -1,0 +1,26 @@
+.zoom-in{
+	animation: zoom-in 1s 1;
+	transition: all .2s ease-in-out;
+	position: relative;
+}
+a .zoom-in:hover, a.zoom-in:hover{
+	transform: scale(1.5);
+}
+
+@keyframes zoom-in{
+	0%{
+		transform: scale(0);
+	}
+	100%{
+		transform: scale(1);
+	}
+}
+
+/*restrict transition before page load*/
+.preload{
+	-webkit-transition: none !important;
+	-moz-transition: none !important;
+	-ms-transition: none !important;
+	-o-transition: none !important;
+	transition: none !important;
+}

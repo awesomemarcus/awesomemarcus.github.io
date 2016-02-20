@@ -4,8 +4,8 @@ tagline: 'Web Developer. Blogger' # A brief tagline for your site
 sidebar_image: http://annotations.azurewebsites.net/wp-content/uploads/2014/01/holmes.jpg
 
 # Build settings
-markdown: redcarpet
-highlighter: pygments
+markdown: kramdown
+highlighter: rouge
 baseurl: 
 url: 'http://awesomemarcus.github.io'
 
