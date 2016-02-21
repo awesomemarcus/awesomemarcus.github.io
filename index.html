@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<header id="home-header" style="background-image: url({{ site.baseurl }}{{ site.sidebar_image }});">
+<header id="home-header" class="cover-page" style="background-image: url({{ site.baseurl }}{{ site.sidebar_image }});">
   <div class="container">
     <h1>{{ site.title }}</h1>
     <ul class="meta">
@@ -17,6 +17,10 @@ layout: default
           <a href="https://twitter.com/{{ site.author.twitter }}"><i class="fa fa-twitter zoom-in" title="Twitter"></i></a>
           <a href="https://ph.linkedin.com/in/{{ site.author.linkedin }}"><i class="fa fa-linkedin zoom-in" title="Linkedin"></i></a>
         </span>
+      </li>
+      <li id="menu-btns" class="menus">
+      <a id="blog-link" href="#" class="btn btn-default">Blog</a>
+      <a id="resume-link" href="https://www.dropbox.com/s/a552ab52yviuipy/CURRICULUM-VITAE-MARK%20JASON-updated.pdf?dl=0" class="btn btn-default">Resume</a>
       </li>
     </ul>
   </div>

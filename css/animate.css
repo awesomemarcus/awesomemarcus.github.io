@@ -3,8 +3,14 @@
 	transition: all .2s ease-in-out;
 	position: relative;
 }
+
 a .zoom-in:hover, a.zoom-in:hover{
 	transform: scale(1.5);
+}
+
+.cover-page{
+	width: 100%;
+	text-align: center;
 }
 
 @keyframes zoom-in{
@@ -24,3 +30,4 @@ a .zoom-in:hover, a.zoom-in:hover{
 	-o-transition: none !important;
 	transition: none !important;
 }
+

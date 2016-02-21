@@ -89,6 +89,11 @@ article {
 header {
   position: relative;
   width: 35%;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -ms-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
@@ -242,6 +247,17 @@ header ul.meta li.social-ico a:first-child{
   margin-left: 2px;
 }
 
+header ul.meta li#menu-btns a{
+  text-transform: uppercase;
+  color: #fff;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+header ul.meta li#menu-btns a:hover{
+  text-decoration: line-through;
+}
+
 /* Pagination */
 
 @media screen and (min-width: 961px){
@@ -357,4 +373,10 @@ ul.posts .meta {
 
 ul.posts p {
   margin-bottom: 36px;
+}
+
+/*Variables*/
+.btn{
+  text-decoration: none;
+  padding: 5px 0px;
 }
