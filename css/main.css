@@ -391,6 +391,7 @@ ul.meta li#post-tag-list a:hover{
   text-decoration: none;
   border: 1px solid #fff;
   padding: 3px 10px;
+  transition: background-color .2s ease-in-out;
 }
 
 #tag-cloud a:hover{
