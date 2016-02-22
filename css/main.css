@@ -375,34 +375,6 @@ ul.posts p {
   margin-bottom: 36px;
 }
 
-/*Post Page*/
-ul.meta li#post-tags a{
-  color: #fff;
-  text-decoration: none;
-}
-
-ul.meta li#post-tags a:hover{
-  color: #B3B0B0;
-}
-
-/*Tag Page*/
-#tag-page h1{
-  border-bottom: 1px solid #fff;
-  padding: 10px 0;
-  margin-bottom: 10px;
-}
-#tag_cloud a{
-  color: #fff;
-  text-decoration: none;
-  border: 1px solid #fff;
-  padding: 3px 8px;
-  vertical-align: middle;
-}
-
-#tag_cloud a:hover{
-  background-color: #646464;
-}
-
 /*Variables*/
 .btn{
   text-decoration: none;
