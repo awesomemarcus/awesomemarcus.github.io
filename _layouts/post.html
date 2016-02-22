@@ -13,11 +13,11 @@ layout: default
           </span>
           {{ page.date | date_to_string }}
         </li>
-        <li>
+        <li id="post-tags">
           <span>
-            Category
+            Tags
           </span>
-          {{ page.categories }}
+          {{ page | tags }}
         </li>
       </ul>      
     </div>
