@@ -2,8 +2,8 @@
 layout: default
 ---
 <header id="home-header"  style="background-image: url({{ site.baseurl }}{{ site.sidebar_image }});">
-  <div class="container">
-    <h1>{{ page.tag }}</h1>
+  <div id="tag-page" class="container">
+    <h1>{{ page.tag | prepend:"#"}}</h1>
     <div id="tag-cloud">
       {{ site | tag_cloud }}
     </div>
