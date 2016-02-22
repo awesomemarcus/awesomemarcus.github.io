@@ -19,3 +19,7 @@ author:
 permalink: /blog/:title
 paginate_path: /blog/page:num/
 timezone: null
+
+# Tags settings
+# tag_page_layout: tag_page
+# tag_page_dir: tag
