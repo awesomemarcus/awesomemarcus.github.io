@@ -375,6 +375,29 @@ ul.posts p {
   margin-bottom: 36px;
 }
 
+/*Post Page*/
+ul.meta li#post-tag-list a{
+  color: #fff;
+  text-decoration: none;
+}
+
+ul.meta li#post-tag-list a:hover{
+  color: #A2A0A0;
+}
+
+/*Tag Page*/
+#tag-cloud a{
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #fff;
+  padding: 3px 10px;
+}
+
+#tag-cloud a:hover{
+  background-color: #010101;
+}
+
+
 /*Variables*/
 .btn{
   text-decoration: none;
